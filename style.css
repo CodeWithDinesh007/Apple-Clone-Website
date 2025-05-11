@@ -118,6 +118,11 @@ a:visited {
     height: 3rem;
     border-radius: 25px;
     font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.herosection-btn #btn1:hover{
+  background-color: #0077ED;
 }
 
 .herosection-btn #btn2 {
@@ -130,6 +135,17 @@ a:visited {
     height: 3rem;
     border-radius: 25px;
     font-size: 1.1rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-property: all ;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s ;
+}
+   
+
+.herosection-btn #btn2:hover {
+    color: white;
+    background-color: #0077ED;
 }
 
 .herosection1 {
@@ -168,6 +184,12 @@ a:visited {
     height: 3rem;
     border-radius: 25px;
     font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.herosection1-btn #btn3:hover {
+    color: white;
+    background-color: #0077ED;
 }
 
 .herosection2 {
@@ -217,6 +239,11 @@ a:visited {
     font-size: 1.1rem;
     margin-top: 20px;
     cursor: pointer;
+}
+
+
+.herosection2-btn #btn4:hover {
+    background-color: #0077ED;
 }
 
 .herosection3 {
@@ -280,12 +307,18 @@ a:visited {
     width: 8rem;
     height: 3rem;
     border-radius: 25px;
-
     padding: 0px 10px;
     font-size: 1.1rem;
     margin-top: 20px;
     cursor: pointer;
 }
+
+
+
+#herobtn-1:hover {
+    background-color: #0077ED;
+}
+
 
 #herobtn-2 {
     outline: none;
@@ -300,6 +333,15 @@ a:visited {
     font-size: 1.1rem;
     margin-top: 20px;
     cursor: pointer;
+     transition-duration: 0.2s;
+    transition-property: all ;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s ;
+}
+
+#herobtn-2:hover{
+    background-color: #0077ED;
+    color: white;
 }
 
 .herosection4 {
@@ -367,6 +409,10 @@ a:visited {
     cursor: pointer;
 }
 
+#herobtn4-1:hover {
+    background-color: #0077ED;
+}
+
 #herobtn4-2 {
     outline: none;
     border: none;
@@ -380,6 +426,15 @@ a:visited {
     font-size: 1.1rem;
     margin-top: 20px;
     cursor: pointer;
+    transition-duration: 0.2s;
+    transition-property: all ;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s ;
+}
+
+#herobtn4-2:hover {
+    background-color: #0077ED;
+    color: white;
 }
 
 #herobtn4-3 {
@@ -397,6 +452,12 @@ a:visited {
     cursor: pointer;
 }
 
+
+#herobtn4-3:hover {
+    background-color: #0077ED;
+}
+
+
 #herobtn4-4 {
     outline: none;
     border: none;
@@ -410,6 +471,15 @@ a:visited {
     font-size: 1.1rem;
     margin-top: 20px;
     cursor: pointer;
+    transition-duration: 0.2s;
+    transition-property: all ;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s ;
+}
+
+#herobtn4-4:hover {
+    background-color: #0077ED;
+    color: white;
 }
 
 footer {
